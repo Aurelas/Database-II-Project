@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Database Project - Phase 2</h1>
+        <p>Query 1</p>
+        <form action="Query1.php" method="post">
+            <input type="submit" name="Submit Query 1">
+        </form>
+            
+        <p>Query 2</p>
+        <form action="Query2.php" method="post">
+            Author Name: <input type="text" name="Aname"/>
+            <input type="submit" name="Submit Query 2">
+        </form>
+        <br/>
+        <p>Query 3</p>
+        <form action="Query3.php" method="post">
+            Customer Name: <input type="text" name="Cname"/>
+            <input type="submit" name="Submit Query 3">
+        </form>
+        <br/>
+        <p>Query 4</p>
+        <form action="Query4.php" method="post">
+            Book title: <input type="text" name="Bname"/>
+            <input type="submit" name="Submit Query 4">
+        </form>
+        <p>Query 5</p>
+        <form action="Query5.php" method="post">
+            <select name="Year">
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+            </select>
+            <br/>
+            <input type="submit" name="Submit Query 5">
+            
+        </form>
+        <br/>
+        <p>Query 6</p>
+        <form action="Query6.php" method="post">
+            <p>Please enter the required information to record a customer's purchase:</p>
+            ISBN13: <input type="text" name="ISBN13">
+            Cid: <input type="text" name="Cid">
+            DateTime: <input type="text" name="DT">
+            <input type="submit" name="Submit Query 6">            
+        </form>
+        <br/>
+        
+        <p>Query 7</p>
+        <form action="Query7.php" method="post">
+            <p>Please enter the required information to record a new customer</p>
+            
+            Name: <input type="text" name="Name">
+            Address: <input type="text" name="Address">
+            <input type="submit" name="Submit Query 7">            
+        </form>
+        <br/>
+        
+        <p>Query 8</p>
+        <form action="Query8.php" method="post">
+            <p>Please enter the required information to update people</p>           
+            Name: <input type="text" name="Name8">
+            Address: <input type="text" name="Address8">
+            New Address: <input type="text" name="NAddress">
+            <input type="submit" name="Submit Query 8">            
+        </form>
+        <br/>
+        
+        <p>Query 9</p>
+        <form action="Query9.php" method="post">
+            <p>Please enter the required information to add a book</p>           
+            ISBN13: <input type="text" name="ISBN139">
+            Title: <input type="text" name="title9">
+            Year: <input type="text" name="year9">
+            Category: <input type="text" name="category9">
+            Pname: <input type="text" name="Pname9">
+            Price: <input type="text" name="Price9">
+            <br/>
+            <p>Please enter data on the publisher</p>
+            City: <input type="text" name="City9">
+            State: <input type="text" name="State9">
+            <br/>
+            <p>Please enter data on the author</p>
+            Author id: <input type="text" name="Authorid">
+            Author name: <input type="text" name="Author9">
+            Author address: <input type="text" name="Address9">
+            <input type="submit" name="Submit Query 9">            
+        </form>
+        <br/>
+        
+        <p>Query 10</p>
+        <form action="Query10.php" method="post">
+            <p>Please enter the required information to delete a book</p>           
+            ISBN13: <input type="text" name="ISBN1310">
+            <input type="submit" name="Submit Query 10">            
+        </form>
+        <br/>
+        <h1>Additional Queries</h1>
+        <P>Query 11</P>
+        <form action="Query11.php" method="post">
+            <p>Please enter a customer's name to get the location of where they have bought books:</p>
+            Customer Name: <input type="text" name="Cname11">
+            <input type="submit">
+        </form>
+        
+        <P>Query 12</P>
+        <form action="Query12.php" method="post">
+            <p>Please enter a customer's name to see whether they buy more books online or offline:</p>
+            Customer Name: <input type="text" name="Cname12">
+            <input type="submit">
+        </form>
+        <p>Query 13</p>
+        <form action="Query13.php" method="post">
+            <p>Please enter information to add a new location</p>
+            <select name="Where">
+                <option value="online">online</option>
+                <option value="offline">offline</option>              
+            </select>
+            State: <input type="text" name="state13">
+            City:  <input type="text" name="city13">
+            street: <input type="text" name="street13">
+            Website: <input type="text" name="Website13">
+            <input type="submit">
+        </form>
+    </body>
+</html>
